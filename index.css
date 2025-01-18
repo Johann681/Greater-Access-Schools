@@ -20,6 +20,8 @@
     border: var(--mainbackground) 1px solid;
     border-radius: 10px;
     color: var(--text-balck);
+    font-family: calibri;
+    font-size: 15px;
     transition: ease-in-out 0.5s;
     font-family: calibri;
 }
@@ -96,6 +98,8 @@
     color: var(--white-text);
     font-size: 18px;
 }
+
+#more {display: none;}
 
 /* about section approvals */
 .about .about-flex-colum .approvals{
@@ -270,7 +274,7 @@
 
 .footer-distrubuted h3{
     color: #fff;
-    font:  normal 36px  cursive;
+    font:  normal 42px calibri;
     margin: 0;
 }
 
@@ -287,6 +291,7 @@
     color: inherit;
     margin: 0 5px;
     font-family: calibri;
+    transition: .5s ease-in-out;
 }
 
 .footer-distrubuted .footer-company-name{
@@ -298,6 +303,7 @@
 
 .footer-distrubuted .footer-center{
     flex-basis: 30%;
+    font-family: calibri;
 }
 
 .footer-distrubuted .footer-center i{
@@ -343,6 +349,7 @@
 
 .footer-distrubuted .footer-right {
     flex-basis: 30%;
+    font-family: calibri;
 }
 
 .footer-distrubuted .footer-company-about{
@@ -386,7 +393,8 @@
 }
 
 .footer-links a:hover{
-    color: #000066;
+    color: #33ff33;
+    font-size: 25px;
 }
 
 

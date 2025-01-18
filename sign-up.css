@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'outfit';
+    background: linear-gradient(#ffdad5,#fff7f9);
+    background-image: url(./images/lotus1.jpg);
+    background-size: cover  ;
+    background-repeat: no-repeat;
+}
+
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+}
+
+.contact-left-title h2{
+    font-family: calibri;
+    font-weight: 600;
+    color: #80ff80;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #66ff66;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 600px;
+    height: 80px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid #80ff80;
+}
+
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#80ff80, #66ff66);
+    cursor: pointer;
+}
+
+.contact-right{
+    flex-basis:50% ;
+    width: 50%;
+}
+
+.contact-right img{
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+@media (max-width:1300px){
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
+}
